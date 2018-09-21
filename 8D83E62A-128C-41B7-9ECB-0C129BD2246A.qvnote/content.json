@@ -1,0 +1,17 @@
+{
+  "title": "Optimizing Your Front-End",
+  "cells": [
+    {
+      "type": "text",
+      "data": "-Service Worker: Offline&nbsp;<div>-Uglify</div><div>-Webpack-bundle-analyzer</div><div>-Minify</div><div>- Use discretion with which npm modules you download</div><div>-Google audit</div><div>-Sprite sheets</div><div>-Unused css</div><div><br></div>"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": "React<div>- replace all component with pure component</div>"
+    }
+  ]
+}

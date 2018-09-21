@@ -1,0 +1,17 @@
+{
+  "title": "Four semesters of Computer Science",
+  "cells": [
+    {
+      "type": "text",
+      "data": "Recursion: define a function that calls itself<div><br></div>"
+    },
+    {
+      "type": "text",
+      "data": "<div><b>Data Structures/Interfaces:</b></div><b><div><b><br></b></div>Set (AKA, Collections):</b> no order, not a list, more of an object, no duplicates.<div>-ES6 contains native sets</div><div><br></div><div><b>Map (AKA, Dictionaries): &nbsp;</b>Key value pair<br></div><div><br></div><div><b>Stack: </b>first in, last out. Only push, only pop, peek means just viewing the top of the stack.</div><div><br></div><div><b>Queue: </b>First-in First-Out. Queueing in line. Can assign priority in a priority queue&nbsp;</div><div><br></div><div><b>Array List: </b>optimizes getting values. Expensive to deleting and shift values over.</div><div><b>Linked List</b>: optimizes delete (don’t have to shift memory) but get’s are expensive.&nbsp;</div>"
+    },
+    {
+      "type": "text",
+      "data": "<br>"
+    }
+  ]
+}

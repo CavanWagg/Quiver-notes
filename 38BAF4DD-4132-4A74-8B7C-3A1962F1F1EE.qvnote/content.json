@@ -1,0 +1,117 @@
+{
+  "title": "ThatJS Dude HTML",
+  "cells": [
+    {
+      "type": "text",
+      "data": "\n\n\n\n\n\n<!--StartFragment-->\n\n<p style=\"margin:0in;font-family:Calibri;font-size:11.0pt\"><b>What is doctype? Why\ndo you need it?</b></p>\n\n<p style=\"margin:0in;font-family:Calibri;font-size:11.0pt\">-Doctype instructs\nthe browser about the version and how it should be rendered. Doctype is\nrequired to validate markup</p>\n\n<!--EndFragment-->"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<!DOCTYPE html>"
+    },
+    {
+      "type": "text",
+      "data": "<b>Data attribute:</b> Allows the storage of extra data in the DOM. You can access the data attribute using JS."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<div data-user=\"jsDude\" data-list-size=\"5\" ></div>"
+    },
+    {
+      "type": "text",
+      "data": "<b>Mark:</b> highlight text"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<p>Some part of this paragraph is <mark>highlighted</mark> by using mark element.</p>"
+    },
+    {
+      "type": "text",
+      "data": "<b>http request:&nbsp;</b><span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">&nbsp;Does the following trigger http request at the time of page load?</span>"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<img src=\"mypic.jpg\" style=\"visibility: hidden\" alt=\"My photo\">"
+    },
+    {
+      "type": "text",
+      "data": "Yes"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": " <div style=\"display: none;\">\n    <img src=\"mypic.jpg\" alt=\"My photo\">\n</div>"
+    },
+    {
+      "type": "text",
+      "data": "Yes"
+    },
+    {
+      "type": "text",
+      "data": "<b>Download order</b>"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<head>\n    <link href=\"style1.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <p>Paragraph 1</p>\n    <p>Paragraph 2</p>\n    <link href=\"style2.css\" rel=\"stylesheet\">\n</body>"
+    },
+    {
+      "type": "text",
+      "data": "links/refs have to be downloaded and parsed before content is rendered to the page."
+    },
+    {
+      "type": "text",
+      "data": "<b>Self closing tags: </b>p, li, td, tr, th, html, body"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<p>Some text\n<p>Some more text\n<ul>\n <li>A list item\n <li>Another list item\n</ul>"
+    },
+    {
+      "type": "text",
+      "data": "The above html will be parsed as the following blocks"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<p>Some text</p>\n<p>Some more text</p>\n<ul>\n <li>A list item</li>\n <li>Another list item</li>\n</ul>"
+    },
+    {
+      "type": "text",
+      "data": "<b>Span vs div</b>"
+    },
+    {
+      "type": "text",
+      "data": "Div is a block element, span is an inline element. You cannot put a block element within a inline element."
+    },
+    {
+      "type": "text",
+      "data": "<b>Div, section &amp; article</b><br>"
+    },
+    {
+      "type": "text",
+      "data": "<div>&lt;div&gt;, conveys no meaning<br></div>&lt;section&gt;, group of content related to a single theme. a chunk of related content, like a subsection of a long article. may have a heading and/or footer<div>&lt;article&gt;, stands alone, makes sense if encountered somewhere else (RSS feed), composition in a doc, page, all, or site.</div>"
+    },
+    {
+      "type": "text",
+      "data": "<b>SVG (Scalable Vector Graphic):</b> high fidelity docs for viewing and printing, static images&nbsp;&nbsp;"
+    },
+    {
+      "type": "text",
+      "data": "<b>Semantic HTML: </b>Tags used to structure content as selected and applied appropriately to the meaning of the content. This also helps for SEO, accessibility, reporposing, light code."
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

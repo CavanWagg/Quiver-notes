@@ -1,0 +1,43 @@
+{
+  "title": "Complete Intro to React",
+  "cells": [
+    {
+      "type": "text",
+      "data": "Object Spread&nbsp;"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "<ShowCard {...show}  />"
+    },
+    {
+      "type": "text",
+      "data": "Is the same as..."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "<ShowCard title = {show.title} year = {show.year} />"
+    },
+    {
+      "type": "text",
+      "data": "One-Way data flow: Parent can pass down data to the child but Child cannot pass data to parent. Child cannot interact with parent only accept data and do something with it."
+    },
+    {
+      "type": "text",
+      "data": "State:<div>-Components can only modify their own state.</div>"
+    },
+    {
+      "type": "text",
+      "data": "<b>You probably don’t need to use Redux, 99% of the time.</b>"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": "Node does not understand import syntax"
+    }
+  ]
+}

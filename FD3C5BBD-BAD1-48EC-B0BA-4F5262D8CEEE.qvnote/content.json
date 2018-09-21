@@ -1,0 +1,9 @@
+{
+  "title": "Next Steps",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>FE:</div><div>Flux/MVC/MVVM principles</div><div>Redux</div><div>Authentication/JWT/Passport</div><div>App optimization&nbsp;</div><div>Data Visualizations</div><div>Flow</div><div>Immutable</div><div>Accessibility</div><div>Angular</div><div>Kubernetes/ Docker</div><div><br></div><div>BE:</div><div>Unit testing</div><div>Logging</div><div>Authentication/JWT/OAuth2.0/encryption/salting</div><div>RESTful design principles</div><div>HTTP headers/Cookies</div><div>Memcached, Redis</div><div>Query optimization(indexes)&nbsp;</div><div>Database Design&nbsp;</div><div>HTTP2</div><div>Clustering</div><div>Kubernetes/ Docker</div><div>AWS</div><div>Java</div><div><br></div><div>All:</div><div>ESNext(async/await, dynamic imports, asynchronous iteration)</div><div>Chatbots</div><div>Applied machine learning/AI</div>"
+    }
+  ]
+}

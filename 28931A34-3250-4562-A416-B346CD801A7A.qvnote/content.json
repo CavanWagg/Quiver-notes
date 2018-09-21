@@ -1,0 +1,80 @@
+{
+  "title": "ThatJS Dude CSS",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<b>Float First: </b>in your HTML, always place floated elements first in the markup, before any non-floated elements that your float will interact with."
+    },
+    {
+      "type": "text",
+      "data": "<b>Collapsing: </b>When a parent element that contains any number of floated elements doesn’t expand to completely surround those elements in the way they normally would."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<div id=\"container\">\n\t<p>This is some text contained within a small-ish box. I'm using it as an example of how placing your floated elements in different orders in your HTML can affect your layouts. For example, take a look at this great photo placeholder that should be sitting on the right.</p>\n\t<img src=\"image.gif\" />\n\t<div style=\"clear: right;\"></div>\n</div>"
+    },
+    {
+      "type": "text",
+      "data": "<a href=\"https://cl.ly/6d452a014ff5/Image%2525202018-09-04%252520at%2525207.20.25%252520AM.png\">https://cl.ly/6d452a014ff5/Image%2525202018-09-04%252520at%2525207.20.25%252520AM.png</a>"
+    },
+    {
+      "type": "text",
+      "data": "<b>Inline elements: </b>Don’t have margin or padding on the top and bottom."
+    },
+    {
+      "type": "text",
+      "data": "<b>Px, em, % or pt?</b>"
+    },
+    {
+      "type": "text",
+      "data": "Px: maintains alignment<div>Em: maintains relative size for responsive fonts.&nbsp;</div><div>% sets font-size relative to the font size of the body. is parent font-size is 20px and child font-size is 50%. child would be 10px.</div><div>Pt(points) are used traditionally in print.</div>"
+    },
+    {
+      "type": "text",
+      "data": "<b>Media Queries:&nbsp;</b>When you need to make a number of changes, it’s best to add a separate stylesheet using media queries&nbsp;"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<link rel=\"stylesheet\" type=\"text/css\" media=\"only screen and (max-width: 480px), only screen and (max-device-width: 480px)\" href=\"/assets/css/small-device.css\" />"
+    },
+    {
+      "type": "text",
+      "data": "<b>Optimizing selectors: All selectors have their own inherent efficiency. Here is the order of more to less efficient CSS selector</b>"
+    },
+    {
+      "type": "text",
+      "data": "<ul><li>ID - #header</li><li>Class - .header</li><li>Tag - div&nbsp;</li><li>Sibling - div + p, div ~ p</li><li>Child - div &gt; p</li><li>Descendant - div p</li><li>Universal - div *</li><li>Attribute - input[type=“text”]</li><li>Pseudo - p:first-class</li></ul>"
+    },
+    {
+      "type": "text",
+      "data": "Browsers read selectors from right to left: looks for the children and then checks for the parents"
+    },
+    {
+      "type": "text",
+      "data": "<b>Sprites: </b>Reduce HTTP requrests and the loading time of pages. Sprites load the whole master image at once instead of loading single images one by one.&nbsp;<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">When you have multiple images/ icons, browser makes separate call to the server for each one of them. sprite is a technique to combine all/ some of them (usually similar one in terms of type of image</span><div><div style=\"orphans: 2; widows: 2;\"><font face=\"Helvetica Neue, Helvetica, Arial, sans-serif\"><span style=\"font-size: 14px; background-color: rgb(255, 255, 255);\"><br></span></font></div><div style=\"orphans: 2; widows: 2;\"><font face=\"Helvetica Neue, Helvetica, Arial, sans-serif\"><span style=\"font-size: 14px; background-color: rgb(255, 255, 255);\"><b>Specificity:</b></span></font></div><div><b>&nbsp;</b><img src=\"quiver-image-url/C409C760C0BEE888743DC2697303BBF2.png\" alt=\"specificityimg.png\" width=\"612\" height=\"792\"></div></div>"
+    },
+    {
+      "type": "text",
+      "data": "<b>Shadow DOM: </b>normal DOM but with two differences: 1) how it’s created/used and 2) how it behaves in relation to the rest of the page. Shadow Dom is a separate Dom tree of elements that you can create which is not part of the main document DOM, but when rendered it behaves like the main Dom."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "const header = document.createElement('header');\nconst shadowRoot = header.attachShadow({mode: 'open'});\nshadowRoot.innerHTML = '<h1>Hello Shadow DOM</h1>'; // Could also use appendChild().\n\n// header.shadowRoot === shadowRoot\n// shadowRoot.host === header\n"
+    },
+    {
+      "type": "text",
+      "data": "<b>Transition: </b>allows you to add an effect while changing from one style to another."
+    },
+    {
+      "type": "text",
+      "data": "<b>Filter: </b>render DOM element, image, video. Choose from: grayscale, blur, opacity, brightness, sepia, contrast, ect."
+    },
+    {
+      "type": "text",
+      "data": "<b>Why use a Pre processor: </b>helps you to speed up devlope, maintain and ensure best practices."
+    }
+  ]
+}

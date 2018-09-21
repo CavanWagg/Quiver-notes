@@ -1,0 +1,10 @@
+{
+  "title": "Class problems",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "function userCreator (name, score) {\n  // Object.create makes a special bond between userFunctionStore and the user variables;\n  let newUser = Object.create(userFunctionStore); \n  newUser.name = name;\n  newUser.score = score;\n  return newUser;\n};\n\nlet userFunctionStore = {\n  increment: function(){this.score++};\n  login: function(){console.log(\"You're loggedin\");\n};\nlet user1 = userCreator(\"Will\", 3);\nlet user2 = userCreator(\"Tim\", 5);\nuser1.increment();"
+    }
+  ]
+}
